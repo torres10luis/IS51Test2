@@ -64,3 +64,25 @@ print("this the number of numbers in list")
 print(counts) 
 print("this the number of numbers in list")
 print(counts) """
+
+
+#coding section
+
+def main():
+    lists= []
+    list1 = open("final.txt" , "r")
+    print(list1.read())
+
+    list1 = open("final.txt" , "r")
+    counts = 0
+
+    lists = list1.read()
+    samelist = lists.split("\n")
+
+    for i in samelist:
+        if i: 
+            counts += 1
+    print("this the number of grades in list: ", counts)
+    
+#print(list1.read())
+main()
