@@ -53,8 +53,7 @@ print(counts / len(lists)) """
 
     with open("final.txt") as l:
         data = [int(line) for line in l]
-
-print('the min is ', min(data))    """
+"""
     
 
 """ return sum(lists) / len(lists)
